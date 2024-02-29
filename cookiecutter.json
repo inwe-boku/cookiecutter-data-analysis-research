@@ -1,0 +1,7 @@
+{
+    "project_name": "A short name for the project",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "author_name": "Your name (or your organization/company/team), used for the license file",
+    "github_username": "inwe-boku",
+    "description": "A short description of the project.",
+}
