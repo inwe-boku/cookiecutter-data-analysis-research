@@ -1,5 +1,6 @@
 [![MIT License](https://img.shields.io/github/license/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.svg)](https://choosealicense.com/licenses/mit/)
 [![Tests](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/workflows/Tests/badge.svg)](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/actions?query=workflow%3ATests)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 <!--
     Add a DOI here as soon as you have one. Replace "DOIDOUBLEDASH" and "DOISINGLEDASH" with the
