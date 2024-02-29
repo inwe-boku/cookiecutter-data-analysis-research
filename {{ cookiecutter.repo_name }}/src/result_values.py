@@ -6,10 +6,14 @@ def format_latex_command(key, value, unit=None):
     if not re.match(r"^[a-zA-Z]+$", key):
         raise ValueError(f"Invalid key '{key}': not a valid latex command name")
 
+# Unfortunately, curly braces are used as place holders by cookiecutter (uses jinja templates)
+# https://cookiecutter.readthedocs.io/en/stable/troubleshooting.html#i-m-having-trouble-generating-jinja-templates-from-jinja-templates
+{% raw %}
     if unit is not None:
         value = f"\\qty{{{value}}}{{{unit}}}"
 
     return f"\\newcommand{{\\{key}}}{{{value}}}"
+{% endraw %}
 
 
 def write_result_values(result_values, filename):
