@@ -15,6 +15,8 @@ After [installing cookiecutter](https://cookiecutter.readthedocs.io/en/stable/RE
 
 ## References
 
-1. G. Wilson, J. Bryan, K. Cranston, J. Kitzes, L. Nederbragt, and T. K. Teal, "Good enough practices in scientific computing," PLOS Computational Biology, vol. 13, no. 6, p. e1005510, Jun. 2017, doi: 10.1371/journal.pcbi.1005510.
+1. G. Wilson, J. Bryan, K. Cranston, J. Kitzes, L. Nederbragt, and T. K. Teal, "Good enough practices in scientific computing," PLOS Computational Biology, vol. 13, no. 6, p. e1005510, Jun. 2017, doi: [10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510).
 
-2. W. S. Noble, "A Quick Guide to Organizing Computational Biology Projects," PLOS Computational Biology, vol. 5, no. 7, p. e1000424, Jul. 2009, doi: 10.1371/journal.pcbi.1000424.
+2. W. S. Noble, "A Quick Guide to Organizing Computational Biology Projects," PLOS Computational Biology, vol. 5, no. 7, p. e1000424, Jul. 2009, doi: [10.1371/journal.pcbi.1000424](doi.org/10.1371/journal.pcbi.1000424).
+
+3. "Cookiecutter Data Science." [https://drivendata.github.io/cookiecutter-data-science/](https://drivendata.github.io/cookiecutter-data-science/)
